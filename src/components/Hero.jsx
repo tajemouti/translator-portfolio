@@ -152,18 +152,26 @@ export default function Hero({ t }) {
           <div
             className={`relative transition-all duration-1000 ${
               visible ? 'opacity-100 translate-x-0' : 'opacity-0 translate-x-8'
-            } hidden lg:block`}
+            }`}
             style={{ transitionDelay: '400ms' }}
           >
             {/* Decorative frame offset */}
             <div className="absolute inset-0 translate-x-4 translate-y-4 border border-azure-400/25" />
             <div className="absolute inset-0 -translate-x-2 -translate-y-2 border border-ink-200/40 dark:border-ink-700/40" />
 
-            <div className="relative overflow-hidden">
+            <div className="relative overflow-hidden max-w-md mx-auto lg:max-w-full">
               <img
                 src={heroPhoto}
                 alt={t.about.portrait}
-                className="w-full h-[540px] object-cover object-top grayscale-[0.15] contrast-105"
+                className="
+                    w-full
+                    h-[420px]
+                    sm:h-[520px]
+                    md:h-[650px]
+                    object-cover
+                    object-top
+                    grayscale-[0.2]
+                  "
               />
               {/* Ink overlay gradient */}
               <div className="absolute inset-0 bg-gradient-to-t from-ink-900/30 via-transparent to-transparent" />

@@ -56,43 +56,22 @@ export default function About({ t }) {
           </div>
 
           {/* RIGHT — Photo + decorative card */}
-          <div className="reveal reveal-delay-2 hidden lg:block">
-            <div className="relative">
+          <div className="reveal reveal-delay-2">
+            <div className="relative max-w-md mx-auto lg:max-w-full">
               <div className="overflow-hidden">
                 <img
                   src={heroPhoto}
                   alt={t.about.portrait}
-                  className="w-full h-72 object-cover object-top grayscale-[0.2]"
+                  className="
+                    w-full
+                    h-[420px]
+                    sm:h-[520px]
+                    md:h-[650px]
+                    object-cover
+                    object-top
+                    grayscale-[0.2]
+                  "
                 />
-              </div>
-
-              {/* Info card below image */}
-              <div className="bg-ink-900 dark:bg-ink-800 text-parchment-50 p-8 space-y-5">
-                <div className="space-y-1">
-                  <p className="font-display text-xl font-semibold">{t.about.portrait}</p>
-                  <p className="font-mono text-xs text-azure-400 uppercase tracking-widest">
-                    {t.hero.tagline}
-                  </p>
-                </div>
-
-                <div className="ink-divider !my-4 !bg-ink-700" />
-
-                <div className="space-y-3">
-                  {['Arabic · العربية', 'English', 'Français'].map((lang, i) => (
-                    <div key={i} className="flex items-center gap-3">
-                      <div className="w-2 h-2 rounded-full bg-azure-400 shrink-0" />
-                      <span className="font-body text-sm text-parchment-200">
-                        {lang}
-                      </span>
-                    </div>
-                  ))}
-                </div>
-
-                <div className="pt-2">
-                  <span className="font-mono text-xs text-parchment-400 tracking-widest uppercase">
-                    Bouznika, Morocco
-                  </span>
-                </div>
               </div>
 
               {/* Decorative corner accent */}

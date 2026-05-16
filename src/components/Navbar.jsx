@@ -38,7 +38,7 @@ export default function Navbar({ t, lang, setLang, darkMode, setDarkMode }) {
           onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
           className="flex items-center gap-3 group"
         >
-          <img src={logoSrc} alt="AT Logo" className="h-8 w-auto opacity-90" />
+          <img src={logoSrc} alt="AT Logo" className="h-8 w-auto animate-[spin_3s_linear_infinite]" />
           <span className="font-display text-base font-semibold text-ink-800 dark:text-parchment-100 tracking-wide hidden sm:block">
             {t.nav.logo}
           </span>
