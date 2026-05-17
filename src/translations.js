@@ -261,7 +261,7 @@ export const translations = {
     },
 
     hero: {
-      tagline: "Traductrice Littéraire",
+      tagline: "Traductreur Littéraire",
       headline: "Tisser les littératures arabe, anglaise et française",
       subheadline: "Par une traduction artistique et culturelle",
       description:
@@ -270,7 +270,7 @@ export const translations = {
       ctaSecondary: "Télécharger CV",
       languages: ["Arabe", "Anglais", "Français"],
       languageScript: ["العربية", "English", "Français"],
-      award: "Traductrice de l'œuvre lauréate du Dorothy Hewett Award 2025",
+      award: "Traducteur de l'œuvre lauréate du Dorothy Hewett Award 2025",
       scrollHint: "Défiler pour découvrir",
     },
 
@@ -279,7 +279,7 @@ export const translations = {
       title: "L'esprit du traducteur",
       portrait: "Ajrass Tajemouti",
       intro:
-        "Je m'appelle Ajrass Tajemouti. Je suis traductrice littéraire trilingue basée au Maroc, travaillant à l'intersection des mondes littéraires arabe, anglais et français.",
+        "Je m'appelle Ajrass Tajemouti. Je suis traducteur littéraire trilingue basée au Maroc, travaillant à l'intersection des mondes littéraires arabe, anglais et français.",
       body: [
         "J'ai traduit Le Cheveu du pigeon de Mohamed Massoud Morsi — lauréat du Dorothy Hewett Award 2025 — de l'anglais vers l'arabe. Je travaille actuellement sur la traduction arabe de son deuxième roman, Le Palais des Anges.",
         "Ma langue maternelle est l'arabe. Ma formation littéraire embrasse les traditions anglaise et française. Cette triangulation n'est pas une compétence technique — c'est une sensibilité artistique forgée au fil de décennies de lecture, d'écoute et d'habitation des langues comme cultures vivantes.",
@@ -301,7 +301,7 @@ export const translations = {
           icon: "Feather",
           title: "Préservation de la voix",
           body:
-            "La voix de l'auteur est sacrée. Je lis une œuvre trois fois avant de la traduire — une fois en lectrice, une fois en critique, une fois en traductrice. À ce stade, la voix vit en moi, et je la porte en arabe.",
+            "La voix de l'auteur est sacrée. Je lis une œuvre trois fois avant de la traduire — une fois en lectrice, une fois en critique, une fois en traducteur. À ce stade, la voix vit en moi, et je la porte en arabe.",
         },
         {
           icon: "Globe",
@@ -476,7 +476,7 @@ export const translations = {
     },
 
     footer: {
-      tagline: "Traductrice Littéraire — Arabe · Anglais · Français",
+      tagline: "Traductreur Littéraire — Arabe · Anglais · Français",
       rights: "Tous droits réservés.",
     },
   },
