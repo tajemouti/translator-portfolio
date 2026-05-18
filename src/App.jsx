@@ -6,6 +6,7 @@ import About from './components/About'
 import Philosophy from './components/Philosophy'
 import Showroom from './components/Showroom'
 import Journey from './components/Journey'
+import Recommendations from './components/Recommendations'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
 
@@ -67,6 +68,13 @@ export default function App() {
         <Showroom t={t} lang={lang} />
 
         <Journey t={t} />
+
+        {/* Ink divider */}
+        <div className="max-w-7xl mx-auto px-6">
+          <div className="ink-divider" />
+        </div>
+
+        <Recommendations t={t} />
 
         <Contact t={t} />
       </main>

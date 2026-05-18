@@ -12,8 +12,8 @@ export const translations = {
     // --- NAV ---
     nav: {
       logo: "Ajrass Tajemouti",
-      links: ["About", "Philosophy", "Showroom", "Journey", "Contact"],
-      anchors: ["about", "philosophy", "showroom", "journey", "contact"],
+      links: ["About", "Philosophy", "Showroom", "Journey", "Recommendations", "Contact"],
+      anchors: ["about", "philosophy", "showroom", "journey", "recommendations", "contact"],
       languageLabel: "Language",
     },
 
@@ -40,7 +40,7 @@ export const translations = {
       intro:
         "My name is Ajrass Tajemouti. I am a trilingual literary translator based in Morocco, working at the intersection of Arabic, English, and French literary worlds.",
       body: [
-        "I translated The Hair of the Pigeon by Mohamed Massoud Morsi — winner of the Dorothy Hewett Award 2025 — from English into Arabic. I am currently working on the Arabic translation of his second novel, The Palace of Angels.",
+        "I translated The Hair of the Pigeon by Mohammed Massoud Morsi — winner of the Dorothy Hewett Award 2025 — from English into Arabic. I am currently working on the Arabic translation of his second novel, The Palace of Angels.",
         "My mother tongue is Arabic. My literary education spans English and French traditions. This triangulation is not a technical skill — it is an artistic sensibility forged over decades of reading, listening, and inhabiting languages as living cultures.",
         "I believe translation is the most intimate form of reading. To translate a novel is to rewrite it from the inside — to feel every metaphor, test every idiom against cultural memory, and ask: what does this mean here, now, in Arabic?",
       ],
@@ -98,7 +98,7 @@ export const translations = {
         {
           id: 1,
           workTitle: "The Hair of the Pigeon",
-          author: "Mohamed Massoud Morsi",
+          author: "Mohammed Massoud Morsi",
           direction: "English → Arabic",
           original: {
             lang: "en",
@@ -116,7 +116,7 @@ export const translations = {
         {
           id: 2,
           workTitle: "The Palace of Angels",
-          author: "Mohamed Massoud Morsi",
+          author: "Mohammed Massoud Morsi",
           direction: "English → Arabic",
           original: {
             lang: "en",
@@ -134,7 +134,7 @@ export const translations = {
         {
           id: 3,
           workTitle: "The Hair of the Pigeon",
-          author: "Mohamed Massoud Morsi",
+          author: "Mohammed Massoud Morsi",
           direction: "English → Arabic",
           original: {
             lang: "en",
@@ -163,14 +163,14 @@ export const translations = {
           year: "2025",
           type: "achievement",
           title: "Dorothy Hewett Award — Translator",
-          body: "Completed and published the Arabic translation of The Hair of the Pigeon by Mohamed Massoud Morsi, winner of Australia's Dorothy Hewett Award 2025.",
+          body: "Completed and published the Arabic translation of The Hair of the Pigeon by Mohammed Massoud Morsi, winner of Australia's Dorothy Hewett Award 2025.",
           highlight: true,
         },
         {
           year: "2025",
           type: "work",
           title: "The Palace of Angels — In Progress",
-          body: "Currently engaged in translating Mohamed Massoud Morsi's second novel — a cross-border narrative exploring war, identity, and human relationships across the Mediterranean.",
+          body: "Currently engaged in translating Mohammed Massoud Morsi's second novel — a cross-border narrative exploring war, identity, and human relationships across the Mediterranean.",
           highlight: false,
         },
         {
@@ -225,8 +225,8 @@ export const translations = {
       social: {
         title: "Find Me Online",
         links: [
-          { label: "LinkedIn", href: "https://linkedin.com", icon: "Linkedin" },
-          { label: "GitHub", href: "https://github.com", icon: "Github" },
+          { label: "LinkedIn", href: "https://linkedin.com/in/ajrass-tajemouti", icon: "Linkedin" },
+          { label: "GitHub", href: "https://github.com/tajemouti", icon: "Github" },
           { label: "Email", href: "mailto:tajemouti@gmail.com", icon: "Mail" },
         ],
       },
@@ -255,8 +255,8 @@ export const translations = {
 
     nav: {
       logo: "Ajrass Tajemouti",
-      links: ["À propos", "Philosophie", "Vitrine", "Parcours", "Contact"],
-      anchors: ["about", "philosophy", "showroom", "journey", "contact"],
+      links: ["À propos", "Philosophie", "Vitrine", "Parcours", "Recommandations", "Contact"],
+      anchors: ["about", "philosophy", "showroom", "journey", "recommendations", "contact"],
       languageLabel: "Langue",
     },
 
@@ -281,7 +281,7 @@ export const translations = {
       intro:
         "Je m'appelle Ajrass Tajemouti. Je suis traducteur littéraire trilingue basée au Maroc, travaillant à l'intersection des mondes littéraires arabe, anglais et français.",
       body: [
-        "J'ai traduit Le Cheveu du pigeon de Mohamed Massoud Morsi — lauréat du Dorothy Hewett Award 2025 — de l'anglais vers l'arabe. Je travaille actuellement sur la traduction arabe de son deuxième roman, Le Palais des Anges.",
+        "J'ai traduit Le Cheveu du pigeon de Mohammed Massoud Morsi — lauréat du Dorothy Hewett Award 2025 — de l'anglais vers l'arabe. Je travaille actuellement sur la traduction arabe de son deuxième roman, Le Palais des Anges.",
         "Ma langue maternelle est l'arabe. Ma formation littéraire embrasse les traditions anglaise et française. Cette triangulation n'est pas une compétence technique — c'est une sensibilité artistique forgée au fil de décennies de lecture, d'écoute et d'habitation des langues comme cultures vivantes.",
         "Je crois que la traduction est la forme la plus intime de la lecture. Traduire un roman, c'est le réécrire de l'intérieur — ressentir chaque métaphore, tester chaque idiome contre la mémoire culturelle, et se demander : que signifie cela ici, maintenant, en arabe ?",
       ],
@@ -337,7 +337,7 @@ export const translations = {
         {
           id: 1,
           workTitle: "Le Cheveu du pigeon",
-          author: "Mohamed Massoud Morsi",
+          author: "Mohammed Massoud Morsi",
           direction: "Anglais → Arabe",
           original: {
             lang: "en",
@@ -355,7 +355,7 @@ export const translations = {
         {
           id: 2,
           workTitle: "Le Palais des Anges",
-          author: "Mohamed Massoud Morsi",
+          author: "Mohammed Massoud Morsi",
           direction: "Anglais → Arabe",
           original: {
             lang: "en",
@@ -373,7 +373,7 @@ export const translations = {
         {
           id: 3,
           workTitle: "Le Cheveu du pigeon",
-          author: "Mohamed Massoud Morsi",
+          author: "Mohammed Massoud Morsi",
           direction: "Anglais → Arabe",
           original: {
             lang: "en",
@@ -401,14 +401,14 @@ export const translations = {
           year: "2025",
           type: "achievement",
           title: "Dorothy Hewett Award — Traductrice",
-          body: "Traduction arabe achevée et publiée du Cheveu du pigeon de Mohamed Massoud Morsi, lauréat du Dorothy Hewett Award 2025 en Australie.",
+          body: "Traduction arabe achevée et publiée du Cheveu du pigeon de Mohammed Massoud Morsi, lauréat du Dorothy Hewett Award 2025 en Australie.",
           highlight: true,
         },
         {
           year: "2025",
           type: "work",
           title: "Le Palais des Anges — En cours",
-          body: "Actuellement engagée dans la traduction du deuxième roman de Mohamed Massoud Morsi — un récit transfrontalier explorant la guerre, l'identité et les relations humaines à travers la Méditerranée.",
+          body: "Actuellement engagée dans la traduction du deuxième roman de Mohammed Massoud Morsi — un récit transfrontalier explorant la guerre, l'identité et les relations humaines à travers la Méditerranée.",
           highlight: false,
         },
         {
@@ -462,8 +462,8 @@ export const translations = {
       social: {
         title: "Me retrouver en ligne",
         links: [
-          { label: "LinkedIn", href: "https://linkedin.com", icon: "Linkedin" },
-          { label: "GitHub", href: "https://github.com", icon: "Github" },
+          { label: "LinkedIn", href: "https://linkedin.com/in/ajrass-tajemouti", icon: "Linkedin" },
+          { label: "GitHub", href: "https://github.com/tajemouti", icon: "Github" },
           { label: "E-mail", href: "mailto:tajemouti@gmail.com", icon: "Mail" },
         ],
       },
@@ -491,8 +491,8 @@ export const translations = {
 
     nav: {
       logo: "أجرس التجمعتي",
-      links: ["عن المترجم", "الفلسفة", "معرض الترجمة", "المسيرة", "التواصل"],
-      anchors: ["about", "philosophy", "showroom", "journey", "contact"],
+      links: ["عن المترجم", "الفلسفة", "معرض الترجمة", "المسيرة", "التوصيات", "التواصل"],
+      anchors: ["about", "philosophy", "showroom", "journey", "recommendations", "contact"],
       languageLabel: "اللغة",
     },
 
@@ -698,8 +698,8 @@ export const translations = {
       social: {
         title: "تجدني على الإنترنت",
         links: [
-          { label: "LinkedIn", href: "https://linkedin.com", icon: "Linkedin" },
-          { label: "GitHub", href: "https://github.com", icon: "Github" },
+          { label: "LinkedIn", href: "https://linkedin.com/in/ajrass-tajemouti", icon: "Linkedin" },
+          { label: "GitHub", href: "https://github.com/tajemouti", icon: "Github" },
           { label: "البريد", href: "mailto:tajemouti@gmail.com", icon: "Mail" },
         ],
       },
@@ -707,7 +707,7 @@ export const translations = {
         location: "بوزنيقة، المغرب",
         email: "tajemouti@gmail.com",
         phone: "+212 617-708-648",
-        availability: "متاحة لمشاريع جديدة",
+        availability: "متاح لمشاريع جديدة",
       },
     },
 
