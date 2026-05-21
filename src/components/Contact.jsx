@@ -18,10 +18,24 @@ export default function Contact({ t }) {
   const handleSubmit = async (e) => {
     e.preventDefault()
     setStatus('sending')
-    await new Promise((r) => setTimeout(r, 1200))
-    setStatus('success')
-    setFormData({ name: '', email: '', subject: '', message: '' })
-    setTimeout(() => setStatus('idle'), 5000)
+    try {
+      const res = await fetch('https://formspree.io/f/mojbebdk', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json', Accept: 'application/json' },
+        body: JSON.stringify(formData),
+      })
+      if (res.ok) {
+        setStatus('success')
+        setFormData({ name: '', email: '', subject: '', message: '' })
+        setTimeout(() => setStatus('idle'), 5000)
+      } else {
+        setStatus('idle')
+        alert('Something went wrong. Please try again.')
+      }
+    } catch {
+      setStatus('idle')
+      alert('Network error. Please try again.')
+    }
   }
 
   const f = t.contact.form
