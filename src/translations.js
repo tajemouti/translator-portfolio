@@ -506,7 +506,7 @@ export const translations = {
       ctaSecondary: "تحميل السيرة الذاتية",
       languages: ["العربية", "الإنجليزية", "الفرنسية"],
       languageScript: ["العربية", "English", "Français"],
-      award: "مترجمة الرواية الفائزة بجائزة دوروثي هيويت 2025",
+      award: "مترجم الرواية الفائزة بجائزة دوروثي هيويت 2025",
       scrollHint: "مرّر للاستكشاف",
     },
 
@@ -686,7 +686,7 @@ export const translations = {
         name: "اسمك",
         namePlaceholder: "الاسم الكامل",
         email: "البريد الإلكتروني",
-        emailPlaceholder: "بريدك@الالكتروني.com",
+        emailPlaceholder: "بريدك الالكتروني",
         subject: "الموضوع",
         subjectPlaceholder: "استفسار عن مشروع، تعاون...",
         message: "الرسالة",
@@ -706,7 +706,7 @@ export const translations = {
       info: {
         location: "بوزنيقة، المغرب",
         email: "tajemouti@gmail.com",
-        phone: "+212 617-708-648",
+        phone: "212-617-708-648",
         availability: "متاح لمشاريع جديدة",
       },
     },
